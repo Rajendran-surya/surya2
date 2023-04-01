@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+*{
+    font-family: 'Source Serif Pro', serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size:xx-large;
+    font-weight: 800;
+    color: chartreuse;
+
+}
+#navbarSupportedContent a{
+    color :white;
+    border-bottom: 2px solid transparent;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid chartreuse ;   
+}
+#navbarSupportedContent button{
+    background-color: chartreuse;
+    border-radius: 15px;
+    width: 5 rem;
+
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)) ,url(bg.jfif);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+      font-size: 100px;
+        color:white;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px #ccc,
+                     0px 2px 0px #ccc,
+                     0px 3px 0px #ccc,
+                     0px 4px 0px #ccc,
+                     0px 5px 0px #ccc,
+                     0px 6px 0px #ccc,
+
+                    
+                    
+                     0px 7px 0px #ccc;
+}
+#home p{
+    font-size: 18px;
+    color: white;
+}
+#home  .input-group
+{
+    width:40%;
+    height:45px;
+}
+#ui{
+    background: chartreuse;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3) ;
+}
+#About{
+  
+ background: linear-gradient(to right, green,green 100%);   
+}
+
+#About h1{
+
+font-size: 50px;
+font-weight: 800;
+color: white;
+}
+#About p{
+    color: white;
+    
+
+    
+}
+.img-fluid{
+    margin-top: 53px;
+}
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#product img{
+    width:200px;
+    height:200px;
+}
+.card{
+    width:250px;
+    height:300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px  rgba(0,0,0,.3),inset 4px 4px 10px white;
+border-radius: 20px !important;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+margin: 20px 60px;
+transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 15px 20px 20px  rgba(0,0,0,.3),inset -4px -4px 10px white;
+transition: .2s;
+}
+#contact img{
+    height:90%;
+    width: 100%;
+}
+.box{
+    width:80% !important;
+    
+    margin-top:38px;
+}
+.uotg{
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 94px;
+}
+.hjy{
+  
+    padding-top: 77px;
+    padding-left: 56px;
+}
+.hjy h1{
+    padding-left: 94px;
+}
